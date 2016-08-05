@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var buttons = document.querySelectorAll('button');
 
@@ -18,3 +18,16 @@ for (var i = 0; i < buttons.length; i++) {
 
 	_loop(i);
 }
+
+var options = {
+	title: "Меню"
+};
+
+var _options$width = options.width;
+var w = _options$width === undefined ? 100 : _options$width;
+var _options$height = options.height;
+var h = _options$height === undefined ? 200 : _options$height;
+var title = options.title;
+
+
+console.log(title);
