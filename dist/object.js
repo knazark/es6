@@ -5,6 +5,11 @@ var firstName = 'Nazar',
     email = 'knazark@gmail.com';
 
 var person = {
+	constructor: function constructor(firstName, lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	},
+
 	firstName: firstName,
 	lastName: lastName,
 	email: email,

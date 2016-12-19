@@ -20,6 +20,7 @@ for (var i = 0; i < buttons.length; i++) {
 }
 
 var options = {
+	width: 150,
 	title: "Меню"
 };
 
@@ -31,3 +32,4 @@ var title = options.title;
 
 
 console.log(title);
+console.log(w);

@@ -3,6 +3,10 @@ let firstName = 'Nazar',
 	email = 'knazark@gmail.com';
 
 let person = {
+	constructor(firstName, lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	},
 	firstName,
 	lastName,
 	email,
